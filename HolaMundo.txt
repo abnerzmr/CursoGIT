@@ -1,1 +1,12 @@
-abner zamora
+Comando.
+
+
+git init .... iniciar el repositorio.
+
+git status ---- ver el status del repositori.
+
+git add <file> ---- agregar archivos al rep.
+
+git commit -m " mensaje " ----- agregar un mensaje detallado de los cambios realizados.
+
+git config --global user.email o user.name " correo " ----- configurar datos del usuario
