@@ -9,4 +9,18 @@ git add <file> ---- agregar archivos al rep.
 
 git commit -m " mensaje " ----- agregar un mensaje detallado de los cambios realizados.
 
-git config --global user.email o user.name " correo " ----- configurar datos del usuario
+git config --global user.email o user.name " correo " ----- configurar datos del usuario.
+
+git diff ---- ver los cambios
+
+git checkout -- <file> .... descartar los cambios
+
+git commit -a -m <file> .... saltar el git add <file> andes del commit -m
+
+git log ---- ver los cambios realizados.
+
+git show head ---- ultimo commit que se realizo
+
+git add . ---- agregar todos los archivos al rep.
+
+git reset "6 digitos del sha1 del commit".
