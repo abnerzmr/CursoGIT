@@ -28,3 +28,7 @@ git reset "6 digitos del sha1 del commit".
 git branch "nombre" .. crear rama
 
 git checkout "nombre" .----- cambiar de rama.
+
+git marge --no-ff "rama a combinar" .
+
+git branch -d develop
